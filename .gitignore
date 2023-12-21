@@ -1,0 +1,49 @@
+# See https://help.github.com/ignore-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+sentry.properties
+.sentryclirc
+Dockerfile
+Dockerrun.aws.json.production
+Dockerrun.aws.json.staging
+Dockerfile.staging.off
+Dockerrun.aws.json
+.env.development
+
+# testing
+/coverage
+**/cypress/videos
+**/cypress/screenshots
+
+# production
+/build
+/dist
+/.next
+
+# misc
+.DS_Store
+.env
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.patch
+.vscode/
+
+# Elastic Beanstalk Files
+.elasticbeanstalk
+.ebextensions
+
+# lint
+.eslintcache
+.eslintcache/*
+.vercel
+
+# Sentry
+.sentryclirc
+
+# Sentry
+next.config.original.js
+
+# Sentry
+next.config.wizardcopy.js
