@@ -101,7 +101,7 @@
     "react-autosize-textarea": "^7.0.0",
     "react-avatar": "^3.7.0",
     "react-avatar-edit": "^0.8.3",
-    "react-beautiful-dnd": "^13.0.0",
+    "react-beautiful-dnd": "^13.1.1",
     "react-collapsible": "^2.8.0",
     "react-confetti": "4.0.1",
     "react-dates": "^21.8.0",
